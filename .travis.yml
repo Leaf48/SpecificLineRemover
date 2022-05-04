@@ -1,3 +1,11 @@
-dist: focal
 language: python
-script: python3 Remover.py
+python:
+  - "2.7"
+  - "3.4"
+  - "3.5"
+  - "3.6"
+  - "3.7"
+  - "3.8"
+  - "3.9"
+  - "nightly"
+script: python Remover.py
