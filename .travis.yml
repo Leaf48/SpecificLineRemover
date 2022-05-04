@@ -8,4 +8,5 @@ python:
   - "3.9"
   - "nightly"
 dist: xenial
+os: linux
 script: python3 Remover.py || python Remover.py
