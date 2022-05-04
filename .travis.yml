@@ -7,5 +7,5 @@ python:
   - "3.8"
   - "3.9"
   - "nightly"
-os: windows
+dist: xenial
 script: python3 Remover.py || python Remover.py
